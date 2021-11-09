@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LazyVMAdmin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CommandShellFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cmd.exe</Value>
+    </Setting>
+    <Setting Name="CommandShellArgs" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="vSphereClientFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\VMware\Infrastructure\Virtual Infrastructure Client\Launcher\VpxClient.exe</Value>
+    </Setting>
+    <Setting Name="vSphereClientArgs" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="powerCLIFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Value>
+    </Setting>
+    <Setting Name="powerCLIArgs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-psc "C:\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\vim.psc1" -noe -c ". \"C:\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\Scripts\Initialize-PowerCLIEnvironment.ps1\""</Value>
+    </Setting>
+    <Setting Name="DefaultUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">username</Value>
+    </Setting>
+    <Setting Name="DefaultDomain" Type="System.String" Scope="User">
+      <Value Profile="(Default)">domainname</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
